@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="login-box">
+        <h2>login</h2>
+        <form>
+            <div class="user-box">
+                <label for="firstName">Firstname</label><br><br>
+                <input type="text" id="firstName" name="firstName" required class="bar"><br><br>
+
+            </div>
+            <div class="user-box">
+                <label for="lastName">Lastname</label><br><br>
+                <input type="text" id="lastName" required class="bar"><br><br>
+
+            </div>
+            <div class="user-box">
+                <label for="email">Email</label><br><br>
+                <input type="email" id="email" required class="bar"><br><br>
+
+            </div>
+            <div class="user-box">
+                <label for="pasword">password</label><br><br>
+                <input type="password" id="" required class="bar"><br><br>
+
+            </div>
+            <div class="submit"><button type="button" onclick="submitForm()">submit</button></div>
+        </form>
+    </div>
+    <div id="formData">
+        <h2>Form Data:</h2>
+        <p id="text"><strong>First Name:</strong> <span id="dFirstName"></span></p>
+        <p id="text"><strong>Last Name:</strong> <span id="dLastName"></span></p>
+        <p id="text"><strong>Email:</strong> <span id="dEmail"></span></p>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+<br><br>
+<div id="textt">
+    <p id="small" >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora repellendus magnam, recusandae esse iste magni
+        reprehenderit dolores debitis. Soluta in nisi quibusdam distinctio, magnam, placeat doloremque saepe voluptates
+        quia nemo impedit qui aliquam temporibus expedita, eaque optio laboriosam! Ipsum ab veritatis quos, ducimus quod
+        nesciunt. 
+        <button onclick="submitForm()"> Read more</button>
+
+    </p>
+</div>
+
+</html>

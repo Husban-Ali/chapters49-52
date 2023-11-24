@@ -1,0 +1,69 @@
+body {
+    background-color: #3e3e58;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(./assiest/OIP.jpg); */
+}
+
+.login-box {
+    margin-top: 180px;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(72, 57, 57);
+}
+
+h2 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.user-box {
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.bar:hover {
+    animation: glow 2s linear infinite;
+}
+
+.submit {
+    padding-left: 160px;
+    margin-top: 50px;
+}
+
+/* .button {
+    background-color: ;
+} */
+
+.button:hover {
+    animation: glow 2s linear infinite;
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 5px 5px 20px rgb(93, 52, 168), -5px -5px 20px rgb(93, 52, 168);
+    }
+
+    50% {
+        box-shadow: 5px 5px 20px rgb(81, 224, 210), -5px -5px 20px rgb(81, 224, 210);
+    }
+
+    100% {
+        box-shadow: 5px 5px 20px rgb(93, 52, 168), -5px -5px 20px rgb(93, 52, 168);
+    }
+}
+.text{
+    color: darkred;
+}
+#formData{
+    display: none;
+    color: rgb(129, 103, 103);
+    /* margin-top: 1000px; */
+}
+#textt{
+    margin-top: 1000px;
+    margin-right: 500px;
+}
